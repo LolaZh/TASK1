@@ -8,8 +8,8 @@ public class Main2 {
 
         Scanner scanner = new Scanner(System.in); // შემოვიტანე სკანერი იუზერის ინფუთის მისაღებად
         System.out.println("შეიყვანე რიცხვი"+":");
-        int number = scanner.nextInt(); // დაბეჭდავს int ტიპის ინფუთს.
-        checkNumber(number); //მეთოდის გამოძახება.
+
+        checkNumber(scanner.nextInt()); //მეთოდის გამოძახება.
 
     }
     static void checkNumber(int number){ //main კლასში შევქმენი სტატიკური მეთოდი,რომელიც იღებს int ტიპის  ცვლადს.
