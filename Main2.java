@@ -8,7 +8,6 @@ public class Main2 {
 
         Scanner scanner = new Scanner(System.in); // შემოვიტანე სკანერი იუზერის ინფუთის მისაღებად
         System.out.println("შეიყვანე რიცხვი"+":");
-
         checkNumber(scanner.nextInt()); //მეთოდის გამოძახება.
 
     }
