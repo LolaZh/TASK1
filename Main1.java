@@ -4,7 +4,7 @@ public class Main1 {
 
 
     public static void main(String[] args) {
-        hasTeen(1, 20, 12);
+        hasTeen(1,20,12);
     }
 
     static void hasTeen(int age1, int age2, int age3) {
